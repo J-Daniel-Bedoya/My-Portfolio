@@ -54,7 +54,6 @@
   position: absolute;
   z-index: 5;
   bottom: 0;
-  background-color: #fff;
   border-radius: 10px;
   transform: translateY(20%);
   opacity: 0;
