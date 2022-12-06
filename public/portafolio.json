@@ -1,0 +1,48 @@
+{
+  "proyectos": [
+    {
+      "id": 2,
+      "name": "Pokedex",
+      "description": "Analiza a todos los pokemones que deses vencer o reclutar y no olvides guardar a tus pokemones favoritos",
+      "imgPortafolio": "https://i.ibb.co/ZdPj2wx/Captura-de-pantalla-2022-11-30-190152.png",
+      "linkRepo": "https://github.com/J-Daniel-Bedoya/Pokedex",
+      "linkPagina": "https://transcendent-zuccutto-759b55.netlify.app/"
+    },
+    {
+      "id": 4,
+      "name": "Aerolínea",
+      "description": "El proceso de compra de tiquetes en nuestra app es mucho mas rápido y optimizado, aprovechala y ponle punto final a las largas esperas",
+      "imgPortafolio": "https://i.ibb.co/gdCQQLq/Captura-de-pantalla-2022-12-04-180508.png",
+      "linkRepo": "https://github.com/J-Daniel-Bedoya/Aerolinea",
+      "linkPagina": "https://deft-gecko-f77d0c.netlify.app/"
+    }
+  ],
+  "tectonologys": [
+    "HTML",
+    "CSS",
+    "JS(ES6)",
+    "Recat",
+    "Redux",
+    "Git",
+    "GitHub",
+    "Boostrap",
+    "NodeJs",
+    "Postgres",
+    "Sequelize",
+    "Firebase"
+  ],
+  "imgTecnologys": [
+    "https://i.ibb.co/rZF8Gtx/icon-html.png",
+    "https://i.ibb.co/cTNpNRQ/icon-css.png",
+    "https://i.ibb.co/sW2rSxf/icon-js.png",
+    "https://i.ibb.co/26T6srZ/react-2.png",
+    "https://i.ibb.co/7zv1pPZ/5848309bcef1014c0b5e4a9a.png",
+    "https://i.ibb.co/fYSnr3s/icon-git.png",
+    "https://i.ibb.co/BBcyZXL/icon-github-hab.png",
+    "https://i.ibb.co/mN3XWLr/bootstrap-5-1.png",
+    "https://i.ibb.co/56LRdzc/nodejs-1.png",
+    "https://i.ibb.co/LgYjJvQ/postgresql.png",
+    "https://i.ibb.co/RYfCFCv/sequelizejs-icon.png",
+    "https://i.ibb.co/hMVnHvf/Firebase-1-3.png"
+  ]
+}

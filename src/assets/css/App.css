@@ -1,0 +1,54 @@
+@import url('./styles/loader/loader.css');
+@import url('./styles/navbar/navbar.css');
+@import url('./styles/home/home.css');
+@import url('./styles/sobreMi/sobreMi.css');
+@import url('./styles/proyectos/proyectos.css');
+@import url('./styles/habilidades/habilidades.css');
+@import url('./styles/contacto/contacto.css');
+@import url('./styles/footer/footer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* font-size: 15px; */
+  font-family: 'Manrope', sans-serif;
+}
+
+:root {
+  --white: #FFFFFF;
+  --light-grey: #D9D9D9;
+  --beaver: #0ad3ab;
+  --black: #141414;
+  --eerie-black: #1F1F1F;
+  --jet: #141414;
+}
+html {
+  font-size: 62.5%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--beaver) var(--eerie-black);
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 4px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--eerie-black);
+}
+
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--beaver);;
+  border-radius: 20px;
+}
+
+::selection {
+  background-color: #776254;
+}
