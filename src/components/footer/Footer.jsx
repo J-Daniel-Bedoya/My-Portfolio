@@ -22,7 +22,7 @@ const Footer = () => {
             <a href="https://github.com/J-Daniel-Bedoya" target="_blank">
               <img src={github} alt="GitHub" />
             </a>
-            <a href="#" target="_blank">
+            <a href="https://twitter.com/Danielforzz" target="_blank">
               <img src={twitter} alt="Instagram" />
             </a>
           </div>

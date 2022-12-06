@@ -38,7 +38,7 @@ const Home = () => {
 
           <div className="container_button">
             <a
-              href="https://drive.google.com/file/d/1u_eDzSQOf4dGvleTdg0-IPihJQSjzX3M/view?usp=share_link"
+              href="https://drive.google.com/file/d/1KTaBFVvlNSdJmjkK7RphnnomgZCdakKz/view?usp=share_link"
               target="_blank"
             >
               <button className="cv_button">Ver y/o Descargar CV</button>
@@ -60,7 +60,7 @@ const Home = () => {
           <img src={github} alt="GitHub" className="icon-github" />
         </a>
         <a
-          href="#"
+          href="https://twitter.com/Danielforzz"
         >
           <img src={twitter} alt="Instagram" className="icon-instagram" />
         </a>
