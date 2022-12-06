@@ -30,7 +30,7 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   /* outline: 1px solid #fff; */
 }
 .container_imgCard--proyectos {
