@@ -30,9 +30,9 @@ const Home = () => {
 
           <div className="container_parrafo-info">
             <p>
-              Amante de los nuevos retos y ambriento de conocimiento. Creo en mí,
-              y en que mis habilidades serán de mucha ayuda en tu empresa, creo firmemente 
-              que tengo el potencial suficiente para que le des al botón de contacto.
+            Amante de los nuevos retos y hambriento de conocimiento. Creo en mí, 
+            y en que mis habilidades serán de mucha ayuda en tu empresa, creo 
+            firmemente que tengo el potencial suficiente para que le des al botón de contacto.
             </p>
           </div>
 
