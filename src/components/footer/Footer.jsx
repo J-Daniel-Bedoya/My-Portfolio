@@ -28,7 +28,7 @@ const Footer = () => {
           </div>
 
           <div class="container_text--footer">
-            <span>Copyright © | Coded with</span>
+            <span>Copyright © | Success for all</span>
           </div>
         </div>
       </footer>
