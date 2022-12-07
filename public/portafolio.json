@@ -3,7 +3,7 @@
     {
       "id": 2,
       "name": "Pokedex",
-      "description": "Analiza a todos los pokemones que deses vencer o reclutar y no olvides guardar a tus pokemones favoritos",
+      "description": "Analiza todos los pokemones que desees vencer o reclutar y no olvides guardar a tus pokémons favoritos.",
       "imgPortafolio": "https://i.ibb.co/ZdPj2wx/Captura-de-pantalla-2022-11-30-190152.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/Pokedex",
       "linkPagina": "https://transcendent-zuccutto-759b55.netlify.app/"
@@ -11,7 +11,7 @@
     {
       "id": 3,
       "name": "Portafolio",
-      "description": "Este es un proyecto personal, el cual esta diseñado para mostrar de manera mas eficiente mis gustos y mis capacidades",
+      "description": "Este es un proyecto personal, el cual está diseñado para mostrar de manera más eficiente mis gustos y mis capacidades.",
       "imgPortafolio": "https://i.ibb.co/x7tMVc4/Captura-de-pantalla-2022-12-06-085524.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/My-Portafolio",
       "linkPagina": "https://joyful-crepe-0db7ca.netlify.app/"
@@ -19,7 +19,7 @@
     {
       "id": 4,
       "name": "Aerolínea",
-      "description": "El proceso de compra de tiquetes en nuestra app es mucho mas rápido y optimizado, aprovechala y ponle punto final a las largas esperas",
+      "description": "El proceso de compra de tiquetes en nuestra app es mucho más rápido y optimizado, aprovecha y ponle punto final a las largas esperas.",
       "imgPortafolio": "https://i.ibb.co/gdCQQLq/Captura-de-pantalla-2022-12-04-180508.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/Aerolinea",
       "linkPagina": "https://deft-gecko-f77d0c.netlify.app/"
