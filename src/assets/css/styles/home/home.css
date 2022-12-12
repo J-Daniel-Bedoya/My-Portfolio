@@ -148,8 +148,8 @@
   padding: 2rem 0;
 }
 .header__logo{
-  width: 7.2rem;
-  height: 7.2rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -158,12 +158,12 @@
   transition: 1s;
 }
 .header__logo:hover{
-  outline: 1px solid #026a55;
+  outline: 1px solid #08ab8b;
   cursor: pointer;
 }
 .header__logo div{
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

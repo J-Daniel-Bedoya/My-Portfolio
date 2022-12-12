@@ -3,9 +3,10 @@ import home from "../../assets/imgs/imgPersonal/img1.png";
 import linkedIn from "../../assets/imgs/icon/linkedin-icon.svg";
 import github from "../../assets/imgs/icon/github-icon-1.svg";
 import twitter from "../../assets/imgs/icon/twitter-6.svg";
+import imageLogo from "../../assets/imgs/icon/icon_DB.png";
 
 const Home = () => {
-  const imageLogo = "https://res.cloudinary.com/dpwje5siq/image/upload/v1670815263/JDBC_fzcubk.png";
+  // const imageLogo = "https://res.cloudinary.com/dpwje5siq/image/upload/v1670815263/JDBC_fzcubk.png";
   return (
     <div className="home__container">
       <div className="home" id="home">
