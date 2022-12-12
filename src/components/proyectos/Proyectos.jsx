@@ -1,6 +1,4 @@
 import React from "react";
-import demoProyecto from "../../assets/imgs/icon/icon-demoProyecto.png";
-import githubProyecto from "../../assets/imgs/icon/icon-githubProyecto.png";
 import portafolio from '../../../public/portafolio.json';
 
 const Proyectos = () => {
@@ -10,11 +8,12 @@ const Proyectos = () => {
         <h1>Proyectos</h1>
         <div className="cards_container--proyectos">
           {
-            portafolio.proyectos.map(port => (
+            portafolio.proyectos.map((port,i) => (
               <div
                 className="cards--proyectos"
                 data-aos="zoom-in-up"
                 data-aos-anchor-placement="center-bottom"
+                key={i}
               >
                 <div className="container_imgCard--proyectos">
                   <img src={port.imgPortafolio} alt="Proyecto: Portafolio" />

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import Contacto from './components/contacto/Contacto'
 import Footer from './components/footer/Footer'
 import Habilidades from './components/habilidades/Habilidades'
@@ -9,10 +9,15 @@ import SobreMi from './components/sobreMi/SobreMi'
 import Aos from "aos";
 
 function App() {
+
+  useEffect(() => {
+    Aos.init();
+  }, [])
   
 
   return (
     <div className="App">
+
       <>
         <Nav />
         <Home />
@@ -22,7 +27,7 @@ function App() {
         <Contacto />
         <Footer />
       </>
-      
+
     </div>
   
 

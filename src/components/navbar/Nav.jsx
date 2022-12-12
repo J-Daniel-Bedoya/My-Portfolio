@@ -8,10 +8,11 @@ const Nav = () => {
     <>
       <header className="header">
 
-        <nav class="nav_menu">
+        <nav className="nav_menu">
           {navbar.nav1.map((nav, i) => (
             <a
               href = {`#${nav}`}
+              key={i}
               onClick = {() => setActive(i)}
               style = {{ 
                 color: active === i && "#12edaf",

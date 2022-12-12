@@ -12,10 +12,10 @@ const Habilidades = () => {
 
   return (
     <div>
-      <div class="habilidades" id="habilidades">
+      <div className="habilidades" id="habilidades">
         <h1>Habilidades</h1>
         <div
-          class="cards_container--habilidades"
+          className="cards_container--habilidades"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
         >
