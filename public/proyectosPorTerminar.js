@@ -8,14 +8,6 @@
     "linkPagina": ""
   },
   {
-    "id": 3,
-    "name": "E-Commerce",
-    "description": "E-Commerce con React",
-    "imgPortafolio": "https://i.ibb.co/n0gSjw4/Asus-Vivo-Book-S-02.jpg",
-    "linkRepo": "",
-    "linkPagina": ""
-  },
-  {
     "id": 5,
     "name": "Food Delivery",
     "description": "App de restaurantes",
