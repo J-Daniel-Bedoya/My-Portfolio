@@ -7,6 +7,7 @@ const Nav = () => {
   return (
     <>
       <header className="header">
+
         <nav class="nav_menu">
           {navbar.nav1.map((nav, i) => (
             <a

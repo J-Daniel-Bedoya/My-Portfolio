@@ -5,6 +5,7 @@ import github from "../../assets/imgs/icon/github-icon-1.svg";
 import twitter from "../../assets/imgs/icon/twitter-6.svg";
 
 const Home = () => {
+  const imageLogo = "https://res.cloudinary.com/dpwje5siq/image/upload/v1670815263/JDBC_fzcubk.png";
   return (
     <div className="home__container">
       <div className="home" id="home">
@@ -50,20 +51,25 @@ const Home = () => {
         </div>
       </div>
       <div className="links">
-        <a
-          href="https://www.linkedin.com/in/jose-daniel-bedoya-chavarriaga-b9a8021b1/"
-          target="_blank"
-        >
-          <img src={linkedIn} alt="LinkedIn" className="icon-linkedin" />
+        <a href="https://drive.google.com/file/d/1KTaBFVvlNSdJmjkK7RphnnomgZCdakKz/view?usp=share_link" target={"_blank"} className="header__logo" >
+          <div style={{backgroundImage: `url(${imageLogo})`}}></div>
         </a>
-        <a href="https://github.com/J-Daniel-Bedoya" target="_blank">
-          <img src={github} alt="GitHub" className="icon-github" />
-        </a>
-        <a
-          href="https://twitter.com/Danielforzz"
-        >
-          <img src={twitter} alt="Instagram" className="icon-instagram" />
-        </a>
+        <div className="links__page">
+          <a
+            href="https://www.linkedin.com/in/jose-daniel-bedoya-chavarriaga-b9a8021b1/"
+            target="_blank"
+          >
+            <img src={linkedIn} alt="LinkedIn" className="icon-linkedin" />
+          </a>
+          <a href="https://github.com/J-Daniel-Bedoya" target="_blank">
+            <img src={github} alt="GitHub" className="icon-github" />
+          </a>
+          <a
+            href="https://twitter.com/Danielforzz"
+          >
+            <img src={twitter} alt="Instagram" className="icon-instagram" />
+          </a>
+        </div>
       </div>
     </div>
   );

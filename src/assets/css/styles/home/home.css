@@ -143,11 +143,36 @@
   background-color: #191a1a;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
 }
-
+.header__logo{
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* outline: 1; */
+  transition: 1s;
+}
+.header__logo:hover{
+  outline: 1px solid #026a55;
+  cursor: pointer;
+}
+.header__logo div{
+  width: 7rem;
+  height: 7rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+.links__page{
+  display: flex;
+  flex-direction: column;
+}
 .links img {
   width: 3.3rem;
   height: 3.3rem;
