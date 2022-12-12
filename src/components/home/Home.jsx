@@ -65,7 +65,7 @@ const Home = () => {
             <img src={github} alt="GitHub" className="icon-github" />
           </a>
           <a
-            href="https://twitter.com/Danielforzz"
+            href="https://twitter.com/Danielforzz" target={"_blank"}
           >
             <img src={twitter} alt="Instagram" className="icon-instagram" />
           </a>
