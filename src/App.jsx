@@ -9,35 +9,20 @@ import SobreMi from './components/sobreMi/SobreMi'
 import Aos from "aos";
 
 function App() {
-  const [interval, setInterval] = useState(true);
-  useEffect(() => {
-
-    Aos.init();
-    window.addEventListener('load', () => {
-      setInterval(false)
-    })
-  }, [])
   
 
   return (
     <div className="App">
-      {
-        interval ? (
-          <div class="container--loader">
-            <div class="loader"></div>
-          </div>
-        ) : (
-          <>
-            <Nav />
-            <Home />
-            <SobreMi />
-            <Habilidades />
-            <Proyectos />
-            <Contacto />
-            <Footer />
-          </>
-        )
-      }
+      <>
+        <Nav />
+        <Home />
+        <SobreMi />
+        <Habilidades />
+        <Proyectos />
+        <Contacto />
+        <Footer />
+      </>
+      
     </div>
   
 
