@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Pokedex",
       "description": "Proyecto front-end con React.js y manejo de apis con axios. Diseñé ésta página pensando en la experiencia del usuario final, usando contornos delineados y colores oscuros.",
-      "imgPortafolio": "https://i.ibb.co/ZdPj2wx/Captura-de-pantalla-2022-11-30-190152.png",
+      "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281687/Captura-de-pantalla-2022-11-30-190152_b8fimx.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/Pokedex",
       "linkPagina": "https://pokedex-danielbedoya.netlify.app"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "name": "Portafolio",
       "description": "Este es un proyecto personal, el cual está diseñado para mostrar de manera más eficiente mis gustos y mis capacidades.",
-      "imgPortafolio": "https://i.ibb.co/x7tMVc4/Captura-de-pantalla-2022-12-06-085524.png",
+      "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281676/Captura-de-pantalla-2022-12-06-085524_o20tin.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/My-Portafolio",
       "linkPagina": "https://portafolio-danielbedoya.netlify.app"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "name": "Rick and Morty",
       "description": "Proyecto front-end con React.js y manejo de apis con axios, Tine un diseño sofisticado y muy colorido",
-      "imgPortafolio": "https://i.ibb.co/qD4ZCm4/Captura-de-pantalla-2022-12-08-122321.png",
+      "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281689/Captura-de-pantalla-2022-12-08-122321_pb1bna.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/Rick-and-Morty",
       "linkPagina": "https://rick-and-morty-danielbedoya.netlify.app"
     },
@@ -28,7 +28,7 @@
       "id": 4,
       "name": "Aerolínea",
       "description": "Proyecto full-stack con React.js y Node.js. Implementé un diseño minimalista y amigable a la vista.",
-      "imgPortafolio": "https://i.ibb.co/gdCQQLq/Captura-de-pantalla-2022-12-04-180508.png",
+      "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281683/Captura-de-pantalla-2022-12-04-180508_lfoo9e.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/Aerolinea",
       "linkPagina": "https://aerolinea-danielbedoya.netlify.app"
     },
@@ -39,13 +39,21 @@
       "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1670806055/Captura_de_pantalla_2022-12-11_192138_ihidch.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/E-Comerce-React",
       "linkPagina": "https://e-commerce-danielbedoya.netlify.app"
+    },
+    {
+      "id": 6,
+      "name": "Crud Users",
+      "description": "Un proyecto de lo mejor en cuanto a datos se refiere, con campos de formulario y con los métodos básicos de un back-end",
+      "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281676/Captura_de_pantalla_2023-02-01_150042_puowgb.png",
+      "linkRepo": "https://github.com/J-Daniel-Bedoya/Crud-Users",
+      "linkPagina": "https://crud-users-danielbedoya.netlify.app/"
     }
   ],
   "tectonologys": [
     "HTML",
     "CSS",
     "JS(ES6)",
-    "Recat",
+    "React",
     "Redux",
     "Git",
     "GitHub",
@@ -56,17 +64,17 @@
     "Firebase"
   ],
   "imgTecnologys": [
-    "https://i.ibb.co/rZF8Gtx/icon-html.png",
-    "https://i.ibb.co/cTNpNRQ/icon-css.png",
-    "https://i.ibb.co/sW2rSxf/icon-js.png",
-    "https://i.ibb.co/26T6srZ/react-2.png",
-    "https://i.ibb.co/7zv1pPZ/5848309bcef1014c0b5e4a9a.png",
-    "https://i.ibb.co/fYSnr3s/icon-git.png",
-    "https://i.ibb.co/BBcyZXL/icon-github-hab.png",
-    "https://i.ibb.co/mN3XWLr/bootstrap-5-1.png",
-    "https://i.ibb.co/56LRdzc/nodejs-1.png",
-    "https://i.ibb.co/LgYjJvQ/postgresql.png",
-    "https://i.ibb.co/RYfCFCv/sequelizejs-icon.png",
-    "https://i.ibb.co/hMVnHvf/Firebase-1-3.png"
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-html_ro4j8f.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-css_onjo9h.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/icon-js_kyszsp.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283186/react-2_kops74.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/5848309bcef1014c0b5e4a9a_zasezj.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283182/icon-git_ktypjn.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283182/icon-github-hab_lgkapd.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283185/bootstrap-5-1_q5ezlg.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283186/nodejs-1_p6napb.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283188/postgresql_dqw6v8.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283181/sequelizejs-icon_bfq2od.png",
+    "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283182/Firebase-1-3_trgedk.png"
   ]
 }
