@@ -40,7 +40,7 @@ const Home = () => {
 
           <div className="container_button">
             <a
-              href="https://drive.google.com/file/d/1hHJWzlyvPIzYCgPKokeyMCwztmt1ZkaN/view?usp=share_link"
+              href="https://drive.google.com/file/d/1BDi2sUQKoZOx85qUabiqWMTqUhoG5LWh/view?usp=share_link"
               target="_blank"
             >
               <button className="cv_button">Ver y/o Descargar CV</button>
