@@ -40,7 +40,7 @@ const Home = () => {
 
           <div className="container_button">
             <a
-              href="https://drive.google.com/file/d/1BDi2sUQKoZOx85qUabiqWMTqUhoG5LWh/view?usp=share_link"
+              href="https://drive.google.com/file/d/1YBswiaXhcAzLtpri-AGdLSfTg5N2RMsO/view?usp=share_link"
             >
               <button className="cv_button">Ver y/o Descargar CV</button>
             </a>
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div>
       <div className="links">
-        <a href="https://drive.google.com/file/d/1BDi2sUQKoZOx85qUabiqWMTqUhoG5LWh/view?usp=share_link" target={"_blank"} className="header__logo" >
+        <a href="https://drive.google.com/file/d/1YBswiaXhcAzLtpri-AGdLSfTg5N2RMsO/view?usp=share_link" target={"_blank"} className="header__logo" >
           <div style={{backgroundImage: `url(${imageLogo})`}}></div>
         </a>
         <div className="links__page">
