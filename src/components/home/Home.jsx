@@ -6,13 +6,12 @@ import twitter from "../../assets/imgs/icon/twitter-6.svg";
 import imageLogo from "../../assets/imgs/icon/icon_DB.png";
 
 const Home = () => {
-
   return (
     <div className="home__container">
       <div className="home" id="home">
         <picture className="container_image-home" data-aos="zoom-in">
           <img
-            className="image_home" 
+            className="image_home"
             src={home}
             alt="Ilustración mujer y plantas"
           />
@@ -32,16 +31,15 @@ const Home = () => {
 
           <div className="container_parrafo-info">
             <p>
-            Amante de los nuevos retos y hambriento de conocimiento. Creo en mí, 
-            y en que mis habilidades serán de mucha ayuda en tu empresa, creo 
-            firmemente que tengo el potencial suficiente para que le des al botón de contacto.
+              Amante de los nuevos retos y hambriento de conocimiento. Creo en
+              mí, y en que mis habilidades serán de mucha ayuda en tu empresa,
+              creo firmemente que tengo el potencial suficiente para que le des
+              al botón de contacto.
             </p>
           </div>
 
           <div className="container_button">
-            <a
-              href="https://drive.google.com/file/d/1YBswiaXhcAzLtpri-AGdLSfTg5N2RMsO/view?usp=share_link"
-            >
+            <a href="https://drive.google.com/file/d/1LHRtliSqsNG6XCMljR-mMhdUspm_HRNN/view?usp=drive_link">
               <button className="cv_button">Ver y/o Descargar CV</button>
             </a>
             <a href="#contacto">
@@ -51,8 +49,12 @@ const Home = () => {
         </div>
       </div>
       <div className="links">
-        <a href="https://drive.google.com/file/d/1YBswiaXhcAzLtpri-AGdLSfTg5N2RMsO/view?usp=share_link" target={"_blank"} className="header__logo" >
-          <div style={{backgroundImage: `url(${imageLogo})`}}></div>
+        <a
+          href="https://drive.google.com/file/d/1LHRtliSqsNG6XCMljR-mMhdUspm_HRNN/view?usp=drive_link"
+          target={"_blank"}
+          className="header__logo"
+        >
+          <div style={{ backgroundImage: `url(${imageLogo})` }}></div>
         </a>
         <div className="links__page">
           <a
@@ -64,9 +66,7 @@ const Home = () => {
           <a href="https://github.com/J-Daniel-Bedoya" target="_blank">
             <img src={github} alt="GitHub" className="icon-github" />
           </a>
-          <a
-            href="https://twitter.com/Danielforzz" target={"_blank"}
-          >
+          <a href="https://twitter.com/Danielforzz" target={"_blank"}>
             <img src={twitter} alt="Instagram" className="icon-instagram" />
           </a>
         </div>
