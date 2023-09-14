@@ -14,7 +14,7 @@ const Footer = () => {
 
           <div class="container_redes-footer">
             <a
-              href="https://www.linkedin.com/in/jose-daniel-bedoya-chavarriaga-b9a8021b1/"
+              href="https://www.linkedin.com/in/j-daniel-bedoya"
               target="_blank"
             >
               <img src={linkedIn} alt="LinkedIn" />
@@ -32,7 +32,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-
     </div>
   );
 };

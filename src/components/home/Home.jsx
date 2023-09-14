@@ -57,10 +57,7 @@ const Home = () => {
           <div style={{ backgroundImage: `url(${imageLogo})` }}></div>
         </a>
         <div className="links__page">
-          <a
-            href="https://www.linkedin.com/in/jose-daniel-bedoya-chavarriaga-b9a8021b1/"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/j-daniel-bedoya" target="_blank">
             <img src={linkedIn} alt="LinkedIn" className="icon-linkedin" />
           </a>
           <a href="https://github.com/J-Daniel-Bedoya" target="_blank">
