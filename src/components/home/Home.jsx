@@ -39,7 +39,7 @@ const Home = () => {
           </div>
 
           <div className="container_button">
-            <a href="https://drive.google.com/file/d/1LHRtliSqsNG6XCMljR-mMhdUspm_HRNN/view?usp=drive_link">
+            <a href="https://drive.google.com/file/d/1tqEMpONbRyfyfooMY1GWfkrZXYo5EAEx/view?usp=drive_link">
               <button className="cv_button">Ver y/o Descargar CV</button>
             </a>
             <a href="#contacto">
@@ -50,7 +50,7 @@ const Home = () => {
       </div>
       <div className="links">
         <a
-          href="https://drive.google.com/file/d/1LHRtliSqsNG6XCMljR-mMhdUspm_HRNN/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1tqEMpONbRyfyfooMY1GWfkrZXYo5EAEx/view?usp=drive_link"
           target={"_blank"}
           className="header__logo"
         >
