@@ -5,28 +5,25 @@ const Nav = () => {
   const [active, setActive] = useState(0);
 
   return (
-    <>
-      <header className="header">
-
-        <nav className="nav_menu">
-          {navbar.nav1.map((nav, i) => (
-            <a
-              href = {`#${nav}`}
-              key={i}
-              onClick = {() => setActive(i)}
-              style = {{ 
-                color: active === i && "#12edaf",
-                borderBottom: active === i && "1px solid #12edaf",
-                paddingBottom: "3px",
-                transition: ".7s"
-              }}
-            >
-              {navbar.nav2[i]}
-            </a>
-          ))}
-        </nav>
-      </header>
-    </>
+    <header className="header">
+      <nav className="header__nav">
+        {navbar.nav1.map((nav, i) => (
+          <a
+            href={`#${nav}`}
+            key={i}
+            onClick={() => setActive(i)}
+            style={{
+              color: active === i && "#12edaf",
+              borderBottom: active === i && "1px solid #12edaf",
+              paddingBottom: "3px",
+              transition: ".7s",
+            }}
+          >
+            {navbar.nav2[i]}
+          </a>
+        ))}
+      </nav>
+    </header>
   );
 };
 

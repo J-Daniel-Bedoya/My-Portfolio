@@ -4,43 +4,50 @@ import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
 
 const Contacto = () => {
-  const apiContacto = "https://contactoportafolio-production.up.railway.app/api/v1/contacto";
+  const apiContacto =
+    "https://contactoportafolio-production.up.railway.app/api/v1/contacto";
   const { register, handleSubmit, reset } = useForm();
-  const defaultValues = {     
+  const defaultValues = {
     name: "",
     email: "",
     affair: "",
-    message: ""
-  }
+    message: "",
+  };
   const onSubmit = (form) => {
     // console.log(form)
-    axios.post(apiContacto, form)
-    .then(res => {
-      Swal.fire({
-        icon: 'success',
-        title: "Listo!",
-        text: 'Mensaje enviado correctamente',
-        confirmButtonText: 'Ok',
-        timer: 3000
+    axios
+      .post(apiContacto, form)
+      .then((res) => {
+        Swal.fire({
+          icon: "success",
+          title: "Listo!",
+          text: "Mensaje enviado correctamente",
+          confirmButtonText: "Ok",
+          timer: 3000,
+        });
       })
-    })
-    .catch(err => {
-      console.log(err)
-    })
-    reset(defaultValues)
-  }
+      .catch((err) => {
+        console.log(err);
+      });
+    reset(defaultValues);
+  };
 
   return (
     <div>
-      <div className="contacto" id="contacto">
+      <div className="contact">
         <h1>Contacto</h1>
 
         <div
-          className="container_box--contacto"
+          className="contact__container"
           data-aos="fade-up"
           data-aos-anchor-placement="center-bottom"
         >
-          <form onSubmit={handleSubmit(onSubmit)} id="form" className="form-contact" name="contacto-portafolio">
+          <form
+            onSubmit={handleSubmit(onSubmit)}
+            id="form"
+            className="contact__container--form"
+            name="contacto-portafolio"
+          >
             <div className="container_text--contacto">
               <p>
                 Completa el siguiente formulario y me pondré en contacto contigo
@@ -54,7 +61,7 @@ const Contacto = () => {
                 name="name"
                 placeholder="Nombre"
                 required
-                { ...register("name") }
+                {...register("name")}
               />
             </div>
             <div>
@@ -64,7 +71,7 @@ const Contacto = () => {
                 name="email"
                 placeholder="E-mail"
                 required
-                { ...register("email") }
+                {...register("email")}
               />
             </div>
             <div>
@@ -74,7 +81,7 @@ const Contacto = () => {
                 name="affair"
                 placeholder="Asunto"
                 required
-                { ...register("affair") }
+                {...register("affair")}
               />
             </div>
             <div>
@@ -85,7 +92,7 @@ const Contacto = () => {
                 name="message"
                 placeholder="Mensaje"
                 required
-                { ...register("message") }
+                {...register("message")}
               ></textarea>
             </div>
             <div className="btn_form--contacto">

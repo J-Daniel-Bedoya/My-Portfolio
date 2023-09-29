@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "scss": "sass ./src/styles/sass:./src/styles/css --watch"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.0",
@@ -16,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.40.0",
     "react-redux": "^8.0.5",
+    "sass": "^1.68.0",
     "sweetalert2": "^11.6.15"
   },
   "devDependencies": {

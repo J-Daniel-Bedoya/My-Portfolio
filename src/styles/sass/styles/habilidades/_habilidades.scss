@@ -1,0 +1,74 @@
+@use "../../variables/var";
+
+.skills {
+  background-color: var.$jet;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 8rem;
+
+  & h1 {
+    display: block;
+    text-align: center;
+    color: var.$white;
+    font-size: 2.4rem;
+    letter-spacing: 0.1rem;
+    padding: 8rem 0 5rem 0;
+  }
+
+  &__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 13rem 13rem 13rem 13rem;
+    grid-template-rows: 14rem 14rem;
+    gap: 3rem;
+    margin-top: 2rem;
+
+    &--card {
+      background-color: var.$eerie-black;
+      border-radius: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 13rem;
+      height: 14rem;
+      filter: grayscale(100%);
+      border: 1px solid var.$beaver;
+      transition: all 0.8s;
+
+      & img {
+        margin-top: 0.7rem;
+        width: 9rem;
+      }
+
+      & p {
+        letter-spacing: 0.1rem;
+        margin-top: 0.8rem;
+        margin-bottom: 0.7rem;
+        color: var.$white;
+        font-size: 1.6rem;
+      }
+
+      &:hover {
+        filter: grayscale(0);
+      }
+    }
+  }
+}
+
+// .puntos1-habilidades {
+//   display: inline;
+//   position: absolute;
+//   width: 6rem;
+//   margin: 15rem 0 0 20%;
+//   background-attachment: fixed;
+// }
+
+// .puntos2-habilidades {
+//   display: inline;
+//   position: absolute;
+//   width: 6rem;
+//   margin: 0 0 0 76%;
+// }

@@ -1,0 +1,110 @@
+@use "../../variables/var";
+
+.contact {
+  background-color: var.$eerie-black;
+  width: 100%;
+  height: auto;
+  margin-top: 15rem;
+  padding: 0 16rem;
+  // padding: 0 2rem 5rem 2rem;
+
+  & h1 {
+    display: block;
+    text-align: center;
+    color: var.$white;
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    padding: 6rem 0 4rem 0;
+    font-weight: bold;
+  }
+
+  &__container {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+    &--form {
+      width: 40%;
+      height: auto;
+      background-color: var.$eerie-black;
+      border: 1px solid var.$beaver;
+      border-radius: 24px;
+      padding: 3rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      & div {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10rem;
+        // background-color: #d0ffef;
+
+        & p {
+          font-size: 2rem;
+          text-wrap: wrap;
+          color: var.$light-grey;
+          padding-bottom: 2rem;
+        }
+
+        & input,
+        textarea {
+          background-color: aliceblue;
+          width: 100%;
+          background-color: transparent;
+          border: 1px solid #d0ffef;
+          color: var(--light-grey);
+          outline: none;
+          padding-left: 0.6rem;
+          display: flex;
+          align-items: center;
+          border-radius: 7px;
+        }
+
+        & input {
+          height: 3.5rem;
+
+          &:focus {
+            background-color: var.$eerie-black;
+          }
+
+          &::placeholder {
+            color: var.$light-grey;
+          }
+        }
+
+        & textarea {
+          padding: 1rem;
+
+          &:focus {
+            background-color: var.$eerie-black;
+          }
+
+          &::placeholder {
+            color: var.$light-grey;
+          }
+        }
+
+        & button {
+          padding: 6px 5rem;
+          border-radius: 7px;
+          border: none;
+          margin-top: 2rem;
+          font-weight: bold;
+          transition: all 0.8s;
+          background-color: var.$beaver;
+
+          &:hover {
+            cursor: pointer;
+            background-color: var.$white;
+          }
+        }
+      }
+    }
+  }
+}

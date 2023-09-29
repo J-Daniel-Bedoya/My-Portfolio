@@ -1,0 +1,28 @@
+@use "../../variables/var";
+
+.header {
+  background-color: var.$jet;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  // background-color: #f1c3c3;
+  // position: fixed;
+
+  &__nav {
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    font-size: 17px;
+
+    & a {
+      text-decoration: none;
+      color: var.$white;
+
+      &:hover {
+        color: var.$beaver;
+      }
+    }
+  }
+}

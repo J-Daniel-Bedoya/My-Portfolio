@@ -6,13 +6,13 @@ import twitter from "../../assets/imgs/icon/twitter-6.svg";
 const Footer = () => {
   return (
     <div>
-      <footer>
-        <div class="contianer--footer">
-          <div class="link_home">
+      <footer className="footer">
+        <div class="footer__contianer">
+          <div class="footer__container--title">
             <a href="#home">Daniel Bedoya</a>
           </div>
 
-          <div class="container_redes-footer">
+          <div class="footer__container--networks">
             <a
               href="https://www.linkedin.com/in/j-daniel-bedoya"
               target="_blank"
@@ -27,7 +27,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div class="container_text--footer">
+          <div class="footer__contianer--copy">
             <span>Copyright © | Success for all</span>
           </div>
         </div>
