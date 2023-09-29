@@ -1,5 +1,5 @@
 import React from "react";
-import home from "../../assets/imgs/imgPersonal/selfie.png";
+import home from "../../assets/imgs/imgPersonal/selfie3.png";
 // import linkedIn from "../../assets/imgs/icon/linkedin-icon.svg";
 // import github from "../../assets/imgs/icon/github-icon-1.svg";
 // import twitter from "../../assets/imgs/icon/twitter-6.svg";
@@ -11,8 +11,13 @@ const Home = () => {
       <div className="home__container">
         <div className="home__container--info">
           <div className="info">
-            <p className="info__text1">¡Hola! Soy</p>
-            <p className="info__text2">Daniel Bedoya</p>
+            <div>
+              <p className="info__text1">¿Buscas un buen perfil?</p>
+              <p className="info__text1">¡Estas en el lugar correcto!</p>
+            </div>
+            <p className="info__text2">
+              Soy <span>Daniel</span>
+            </p>
           </div>
 
           <div className="work">
@@ -30,7 +35,9 @@ const Home = () => {
 
           <div className="button">
             <a href="https://drive.google.com/file/d/1bwPl_oXwlIUJf89L9PNVV-CAR8CJYqig/view?usp=drive_link">
-              <button className="cv__button">Ver y/o Descargar CV</button>
+              <button className="cv__button">
+                CV <i class="fa-solid fa-up-right-from-square"></i>
+              </button>
             </a>
             <a href="#contacto">
               <button className="contact__button">¡Contactame!</button>

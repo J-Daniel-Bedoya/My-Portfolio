@@ -1,11 +1,11 @@
 @use "../../variables/var";
 
 .contact {
-  background-color: var.$eerie-black;
+  // background-color: var.$eerie-black;
   width: 100%;
   height: auto;
-  margin-top: 15rem;
-  padding: 0 16rem;
+  // margin-top: 12rem;
+  padding: 16rem;
   // padding: 0 2rem 5rem 2rem;
 
   & h1 {
@@ -14,7 +14,7 @@
     color: var.$white;
     font-size: 5rem;
     letter-spacing: 0.1rem;
-    padding: 6rem 0 4rem 0;
+    padding: 0 6rem 12rem 6rem;
     font-weight: bold;
   }
 
@@ -97,7 +97,7 @@
           margin-top: 2rem;
           font-weight: bold;
           transition: all 0.8s;
-          background-color: var.$beaver;
+          background-color: var.$button2;
 
           &:hover {
             cursor: pointer;

@@ -26,7 +26,7 @@ const Proyectos = () => {
                 <a href={port.linkPagina} target="_blank" className="links">
                   <button className="links__button btn__demo">
                     <i className="fa-solid fa-eye"></i>
-                    DEMO
+                    PAGE
                   </button>
                 </a>
 
