@@ -1,5 +1,5 @@
 import React from "react";
-import home from "../../assets/imgs/imgPersonal/selfie3.png";
+import home from "../../assets/imgs/imgPersonal/selfie1.png";
 // import linkedIn from "../../assets/imgs/icon/linkedin-icon.svg";
 // import github from "../../assets/imgs/icon/github-icon-1.svg";
 // import twitter from "../../assets/imgs/icon/twitter-6.svg";
@@ -11,37 +11,65 @@ const Home = () => {
       <div className="home__container">
         <div className="home__container--info">
           <div className="info">
-            <div>
-              <p className="info__text1">¿Buscas un buen perfil?</p>
-              <p className="info__text1">¡Estas en el lugar correcto!</p>
-            </div>
-            <p className="info__text2">
+            <p className="info__text">
               Soy <span>Daniel</span>
             </p>
+            <a
+              href="https://certificates.academlo.com/en/verify/06546756257334"
+              className="info__work"
+              target="_blank"
+            >
+              Web Full-Stack developer
+              <i class="fa-solid fa-up-right-from-square"></i>
+            </a>
           </div>
 
-          <div className="work">
-            <p className="work__text">Desarrollador web Full-Stack</p>
-          </div>
+          {/* <div className="work"></div> */}
 
           <div className="text">
             <p>
-              Amante de los nuevos retos y hambriento de conocimiento. Creo en
-              mí, y en que mis habilidades serán de mucha ayuda en tu empresa,
-              creo firmemente que tengo el potencial suficiente para que le des
-              al botón de contacto.
+              Desarrollador con experiencia en la creación de sitios web. Amante
+              de los nuevos retos y en constante aprendizaje.
             </p>
           </div>
 
-          <div className="button">
-            <a href="https://drive.google.com/file/d/1bwPl_oXwlIUJf89L9PNVV-CAR8CJYqig/view?usp=drive_link">
-              <button className="cv__button">
-                CV <i class="fa-solid fa-up-right-from-square"></i>
-              </button>
-            </a>
-            <a href="#contacto">
-              <button className="contact__button">¡Contactame!</button>
-            </a>
+          <div className="buttons">
+            <div className="buttons__networks">
+              <a
+                href="mailto:jbedoyachavarriaga@gmail.com"
+                className="buttons__networks--link"
+                target="_blank"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/j-daniel-bedoya/"
+                className="buttons__networks--link"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/J-Daniel-Bedoya/My-Portfolio"
+                className="buttons__networks--link"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+            <div className="buttons__contact">
+              <a
+                href="https://drive.google.com/file/d/1bwPl_oXwlIUJf89L9PNVV-CAR8CJYqig/view?usp=drive_link"
+                className="buttons__contact--link buttons__contact--cv"
+                target="_blank"
+              >
+                CV
+                <i class="fa-solid fa-up-right-from-square"></i>
+              </a>
+              <a href="#contact" className="buttons__contact--link">
+                ¡Contactame!
+              </a>
+            </div>
           </div>
         </div>
 

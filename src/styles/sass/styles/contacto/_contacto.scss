@@ -25,56 +25,67 @@
     justify-content: center;
 
     &--form {
-      width: 40%;
+      width: 45rem;
       height: auto;
-      background-color: var.$eerie-black;
+      // background-color: var.$eerie-black;
       border: 1px solid var.$beaver;
       border-radius: 24px;
       padding: 3rem;
-      position: relative;
+      // position: relative;
       display: flex;
       flex-direction: column;
-      gap: 2rem;
+      gap: 5rem;
 
-      & div {
+      & .form__text {
         width: 100%;
         height: auto;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        // justify-content: center;
         align-items: center;
-        gap: 10rem;
+        gap: 1rem;
         // background-color: #d0ffef;
-
+        & h2 {
+          font-size: 2.7rem;
+          color: var.$white;
+        }
         & p {
-          font-size: 2rem;
+          font-size: 1.5rem;
           text-wrap: wrap;
           color: var.$light-grey;
-          padding-bottom: 2rem;
+          // padding-bottom: 2rem;
         }
+      }
+
+      & .form__inputs {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
 
         & input,
         textarea {
-          background-color: aliceblue;
+          background-color: #4537bd;
           width: 100%;
-          background-color: transparent;
-          border: 1px solid #d0ffef;
-          color: var(--light-grey);
+          height: auto;
+          border: 1px solid var.$border;
+          color: var.$white;
           outline: none;
           padding-left: 0.6rem;
-          display: flex;
-          align-items: center;
           border-radius: 7px;
+          font-size: 20px;
         }
 
         & input {
-          height: 3.5rem;
-
-          &:focus {
-            background-color: var.$eerie-black;
-          }
+          height: 5rem;
 
           &::placeholder {
-            color: var.$light-grey;
+            color: var.$sub-title;
+          }
+
+          &:focus {
+            background-color: #6e5ff3;
           }
         }
 
@@ -82,26 +93,34 @@
           padding: 1rem;
 
           &:focus {
-            background-color: var.$eerie-black;
+            background-color: #6e5ff3;
           }
 
           &::placeholder {
-            color: var.$light-grey;
+            color: var.$sub-title;
           }
         }
+      }
+
+      & .form__button {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
 
         & button {
-          padding: 6px 5rem;
+          padding: 10px;
           border-radius: 7px;
           border: none;
-          margin-top: 2rem;
           font-weight: bold;
+          font-size: 20px;
           transition: all 0.8s;
-          background-color: var.$button2;
+          background-color: var.$button1;
+          color: var.$white;
 
           &:hover {
             cursor: pointer;
-            background-color: var.$white;
+            background-color: var.$button2;
           }
         }
       }

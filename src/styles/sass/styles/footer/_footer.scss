@@ -7,40 +7,42 @@
 
   &__container {
     border-top: 1px solid var.$jet;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    // margin: 0 auto;
     padding-top: 4rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 4rem;
 
     &--title > a {
-      color: var.$beaver;
-      font-size: 3rem;
+      color: var.$white;
+      font-size: 4rem;
       text-decoration: none;
-      letter-spacing: 2px;
+      // letter-spacing: 2px;
+      font-weight: bold;
     }
 
     &--networks {
       display: flex;
       gap: 2rem;
-      margin-top: 2rem;
+      // margin-top: 2rem;
 
       & a {
-        width: 100%;
-        height: 100%;
+        width: 4.5rem;
+        height: 4.5rem;
+        border-radius: 50%;
+        transition: 0.8s;
+        background-color: var.$beaver;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
 
-        & img {
-          width: 3.5rem;
-          height: 3.5rem;
-          border-radius: 50%;
-          padding: 0.1rem;
-          transition: 0.8s;
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-
+        & i {
+          font-size: 2.5rem;
+          color: var.$white;
           &:hover {
             border: 1px solid var.$beaver;
             transform: scale(1.2);
@@ -51,6 +53,8 @@
 
     &--copy {
       padding-bottom: 4rem;
+      // display: flex;
+      // justify-content: center;
 
       & span {
         font-size: 1.3rem;
@@ -58,7 +62,7 @@
       }
       & span:nth-child(1),
       span:nth-child(3) {
-        color: var.$light-grey;
+        color: var.$white;
       }
     }
   }

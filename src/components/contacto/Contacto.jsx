@@ -9,7 +9,6 @@ const Contacto = () => {
   const { register, handleSubmit, reset } = useForm();
   const defaultValues = {
     name: "",
-    email: "",
     affair: "",
     message: "",
   };
@@ -34,7 +33,7 @@ const Contacto = () => {
 
   return (
     <div>
-      <div className="contact">
+      <div className="contact" id="contact">
         <h1>Contacto</h1>
 
         <div
@@ -48,54 +47,44 @@ const Contacto = () => {
             className="contact__container--form"
             name="contacto-portafolio"
           >
-            <div className="container_text--contacto">
-              <p>
-                Completa el siguiente formulario y me pondré en contacto contigo
-                lo antes posible.
-              </p>
+            <div className="form__text">
+              <h2>Solicitud</h2>
+              <p>¡No dudes en escribirme!</p>
             </div>
-            <div>
-              <input
-                id="nombre"
-                type="text"
-                name="name"
-                placeholder="Nombre"
-                required
-                {...register("name")}
-              />
+            <div className="form__inputs">
+              <div>
+                <input
+                  id="nombre"
+                  type="text"
+                  name="name"
+                  placeholder="Nombre"
+                  required
+                  {...register("name")}
+                />
+              </div>
+              <div>
+                <input
+                  id="asunto"
+                  type="text"
+                  name="affair"
+                  placeholder="Asunto"
+                  required
+                  {...register("affair")}
+                />
+              </div>
+              <div>
+                <textarea
+                  id="mensaje"
+                  cols="20"
+                  rows="4"
+                  name="message"
+                  placeholder="Mensaje"
+                  required
+                  {...register("message")}
+                ></textarea>
+              </div>
             </div>
-            <div>
-              <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                required
-                {...register("email")}
-              />
-            </div>
-            <div>
-              <input
-                id="asunto"
-                type="text"
-                name="affair"
-                placeholder="Asunto"
-                required
-                {...register("affair")}
-              />
-            </div>
-            <div>
-              <textarea
-                id="mensaje"
-                cols="20"
-                rows="4"
-                name="message"
-                placeholder="Mensaje"
-                required
-                {...register("message")}
-              ></textarea>
-            </div>
-            <div className="btn_form--contacto">
+            <div className="form__button">
               <button id="btn-enviar" type="submit">
                 Enviar
               </button>

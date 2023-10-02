@@ -6,7 +6,33 @@
       "description": "Proyecto front-end con React.js y manejo de apis con axios. Diseñé ésta página pensando en la experiencia del usuario final, usando contornos delineados y colores oscuros.",
       "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281687/Captura-de-pantalla-2022-11-30-190152_b8fimx.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/Pokedex",
-      "linkPagina": "https://pokedex-danielbedoya.netlify.app"
+      "linkPagina": "https://pokedex-danielbedoya.netlify.app",
+      "tectonologys": [
+        {
+          "name": "HTML",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-html_ro4j8f.png"
+        },
+        {
+          "name": "CSS",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-css_onjo9h.png"
+        },
+        {
+          "name": "JS(ES6)",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/icon-js_kyszsp.png"
+        },
+        {
+          "name": "React",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283186/react-2_kops74.png"
+        },
+        {
+          "name": "Redux",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/5848309bcef1014c0b5e4a9a_zasezj.png"
+        },
+        {
+          "name": "Boostrap",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283185/bootstrap-5-1_q5ezlg.png"
+        }
+      ]
     },
     {
       "id": 1,
@@ -14,7 +40,49 @@
       "description": "Proyecto full-stack con React.js, Node.js y PostgreSQL. Hice una interfas muy amigable con el usuario y desarrllé todo el back-end basado en una e-commerce real como mercado libre",
       "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1670806055/Captura_de_pantalla_2022-12-11_192138_ihidch.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/E-Comerce-React",
-      "linkPagina": "https://e-commerce-danielbedoya.netlify.app"
+      "linkPagina": "https://e-commerce-danielbedoya.netlify.app",
+      "tectonologys": [
+        {
+          "name": "HTML",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-html_ro4j8f.png"
+        },
+        {
+          "name": "CSS",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-css_onjo9h.png"
+        },
+        {
+          "name": "JS(ES6)",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/icon-js_kyszsp.png"
+        },
+        {
+          "name": "React",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283186/react-2_kops74.png"
+        },
+        {
+          "name": "Redux",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/5848309bcef1014c0b5e4a9a_zasezj.png"
+        },
+        {
+          "name": "Boostrap",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283185/bootstrap-5-1_q5ezlg.png"
+        },
+        {
+          "name": "NodeJs",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283186/nodejs-1_p6napb.png"
+        },
+        {
+          "name": "EXpress",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1696191413/logo-express_qtllbs.png"
+        },
+        {
+          "name": "Postgres",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283188/postgresql_dqw6v8.png"
+        },
+        {
+          "name": "Sequelize",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283181/sequelizejs-icon_bfq2od.png"
+        }
+      ]
     },
     {
       "id": 2,
@@ -22,7 +90,33 @@
       "description": "Un proyecto de lo mejor en cuanto a datos se refiere, con campos de formulario y con los métodos básicos de un back-end",
       "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281676/Captura_de_pantalla_2023-02-01_150042_puowgb.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/Crud-Users",
-      "linkPagina": "https://crud-users-danielbedoya.netlify.app/"
+      "linkPagina": "https://crud-users-danielbedoya.netlify.app/",
+      "tectonologys": [
+        {
+          "name": "HTML",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-html_ro4j8f.png"
+        },
+        {
+          "name": "CSS",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-css_onjo9h.png"
+        },
+        {
+          "name": "JS(ES6)",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/icon-js_kyszsp.png"
+        },
+        {
+          "name": "React",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283186/react-2_kops74.png"
+        },
+        {
+          "name": "Redux",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/5848309bcef1014c0b5e4a9a_zasezj.png"
+        },
+        {
+          "name": "Boostrap",
+          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283185/bootstrap-5-1_q5ezlg.png"
+        }
+      ]
     }
   ],
   "tectonologys": [

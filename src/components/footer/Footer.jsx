@@ -7,27 +7,26 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer">
-        <div class="footer__contianer">
-          <div class="footer__container--title">
+        <div className="footer__container">
+          <div className="footer__container--title">
             <a href="#home">Daniel Bedoya</a>
           </div>
 
-          <div class="footer__container--networks">
+          <div className="footer__container--networks">
             <a
               href="https://www.linkedin.com/in/j-daniel-bedoya"
               target="_blank"
             >
-              <img src={linkedIn} alt="LinkedIn" />
+              <i class="fa-brands fa-linkedin-in"></i>
             </a>
             <a href="https://github.com/J-Daniel-Bedoya" target="_blank">
-              <img src={github} alt="GitHub" />
+              <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://twitter.com/Danielforzz" target="_blank">
-              <img src={twitter} alt="Instagram" />
+            <a href="mailto:jbedoyachavarriaga@gmail.com" target="_blank">
+              <i class="fa-solid fa-envelope"></i>
             </a>
           </div>
-
-          <div class="footer__contianer--copy">
+          <div className="footer__container--copy">
             <span>Copyright © | Success for all</span>
           </div>
         </div>

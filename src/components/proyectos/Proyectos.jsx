@@ -21,6 +21,11 @@ const Proyectos = () => {
                 <h2>{port.name}</h2>
                 <p>{port.description}</p>
               </div>
+              <div className="card__container--imgs">
+                {port.tectonologys.map((tect, i) => (
+                  <img src={tect.img} alt={tect.name} />
+                ))}
+              </div>
 
               <div className="card__container--links">
                 <a href={port.linkPagina} target="_blank" className="links">
