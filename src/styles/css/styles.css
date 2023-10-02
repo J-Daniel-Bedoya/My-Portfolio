@@ -116,29 +116,28 @@ html {
 
 .home {
   width: 100%;
-  height: auto;
-  padding: 10rem 16rem;
+  height: 100dvb;
+  padding: 2rem;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column-reverse;
 }
 .home__container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, maxmin(2, 1fr));
 }
 .home__container--img {
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: end;
-  align-items: center;
+  justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .home__container--img img {
-  width: 50rem;
-  height: 50rem;
+  width: 20rem;
+  height: 20rem;
   transition: 0.4s;
   animation: image 2s;
   object-fit: contain;
@@ -154,15 +153,15 @@ html {
 .home__container--info .info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: start;
 }
 .home__container--info .info__text {
-  font-size: 6rem;
+  font-size: 3rem;
   color: #fff;
   font-weight: 800;
 }
 .home__container--info .info__text span {
-  font-size: 8rem;
+  font-size: 5rem;
   color: #19ffe4;
   font-family: "Open Sans", sans-serif;
 }
@@ -174,22 +173,23 @@ html {
   color: rgba(25, 255, 197, 0.8980392157);
   text-decoration: none;
   margin-top: 3rem;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
 .home__container--info .info__work i {
   font-size: 14px;
 }
 .home__container--info .text > p {
-  margin-top: 1.2rem;
+  margin-top: 1.6rem;
   color: #dedbdb;
-  font-size: 1.8em;
+  font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
 .home__container--info .buttons {
   display: flex;
-  justify-content: space-between;
-  margin: 7rem 0;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 7rem 0 5rem 0;
   gap: 2rem;
 }
 .home__container--info .buttons__networks {
@@ -200,8 +200,8 @@ html {
 }
 .home__container--info .buttons__networks--link {
   background-color: #19ffe4;
-  width: 3.8rem;
-  height: 3.8rem;
+  width: 4rem;
+  height: 4rem;
   color: #13ffef;
   text-decoration: none;
   font-weight: bold;
@@ -215,7 +215,7 @@ html {
 }
 .home__container--info .buttons__networks--link > i {
   cursor: pointer;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   color: #1a0248;
 }
 .home__container--info .buttons__networks--link:hover {
@@ -225,16 +225,16 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .home__container--info .buttons__contact--link {
   background-color: #4010b0;
   text-decoration: none;
   color: #ffffff;
   border-radius: 3rem;
-  padding: 1.2rem 1.9rem;
+  padding: 0.7rem 1.5rem;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
   border: none;
   cursor: pointer;
@@ -253,6 +253,70 @@ html {
   color: #13ffef;
 }
 
+@media screen and (width >= 768px) {
+  .home {
+    padding: 0 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home__container--img img {
+    width: 30rem;
+    height: 30rem;
+  }
+  .home__container--info {
+    align-items: start;
+  }
+  .home__container--info .info__text {
+    font-size: 5rem;
+  }
+  .home__container--info .info span {
+    font-size: 8rem;
+  }
+  .home__container--info .info__work {
+    font-size: 2rem;
+  }
+  .home__container--info .text > p {
+    font-size: 2rem;
+  }
+  .home__container--info .buttons {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home__container--info .buttons__networks {
+    flex-direction: row;
+  }
+  .home__container--info .buttons__networks--link {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  .home__container--info .buttons__contact {
+    gap: 1rem;
+  }
+  .home__container--info .buttons__contact--link {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (width >= 1024px) {
+  .home__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home__container--img {
+    justify-content: end;
+    align-items: center;
+  }
+  .home__container--img img {
+    width: 40rem;
+    height: 40rem;
+  }
+}
+@media screen and (width >= 1240px) {
+  .home__container--img img {
+    width: 50rem;
+    height: 50rem;
+  }
+}
 .about {
   background-color: #1d1433;
   width: 100%;

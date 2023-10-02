@@ -17,7 +17,7 @@ const Proyectos = () => {
               <img src={port.imgPortafolio} alt="portfolio" />
               <div className="card__img--icons">
                 {port.tectonologys.map((tect, i) => (
-                  <img src={tect.img} alt={tect.name} />
+                  <img key={i} src={tect.img} alt={tect.name} />
                 ))}
               </div>
             </div>

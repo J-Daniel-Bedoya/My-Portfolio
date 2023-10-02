@@ -1,0 +1,56 @@
+@use "../../../variables/var";
+
+@media screen and (width >= 768px) {
+  .home {
+    padding: 0 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+      &--img {
+        & img {
+          width: 30rem;
+          height: 30rem;
+        }
+      }
+      &--info {
+        align-items: start;
+
+        & .info {
+          &__text {
+            font-size: 5rem;
+          }
+          & span {
+            font-size: 8rem;
+          }
+          &__work {
+            font-size: 2rem;
+          }
+        }
+        & .text > p {
+          font-size: 2rem;
+        }
+
+        & .buttons {
+          width: 100%;
+          flex-direction: row;
+          justify-content: space-between;
+          &__networks {
+            flex-direction: row;
+            &--link {
+              width: 4.5rem;
+              height: 4.5rem;
+            }
+          }
+          &__contact {
+            gap: 1rem;
+            &--link {
+              font-size: 2.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

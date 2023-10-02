@@ -7,9 +7,9 @@ import home from "../../assets/imgs/imgPersonal/selfie1.png";
 
 const Home = () => {
   return (
-    <div className="home">
+    <section className="home">
       <div className="home__container">
-        <div className="home__container--info">
+        <article className="home__container--info">
           <div className="info">
             <p className="info__text">
               Soy <span>Daniel</span>
@@ -20,7 +20,7 @@ const Home = () => {
               target="_blank"
             >
               Web Full-Stack developer
-              <i class="fa-solid fa-up-right-from-square"></i>
+              <i className="fa-solid fa-up-right-from-square"></i>
             </a>
           </div>
 
@@ -40,21 +40,21 @@ const Home = () => {
                 className="buttons__networks--link"
                 target="_blank"
               >
-                <i class="fa-solid fa-envelope"></i>
+                <i className="fa-solid fa-envelope"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/j-daniel-bedoya/"
                 className="buttons__networks--link"
                 target="_blank"
               >
-                <i class="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
               </a>
               <a
                 href="https://github.com/J-Daniel-Bedoya/My-Portfolio"
                 className="buttons__networks--link"
                 target="_blank"
               >
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </a>
             </div>
             <div className="buttons__contact">
@@ -64,14 +64,14 @@ const Home = () => {
                 target="_blank"
               >
                 CV
-                <i class="fa-solid fa-up-right-from-square"></i>
+                <i className="fa-solid fa-up-right-from-square"></i>
               </a>
               <a href="#contact" className="buttons__contact--link">
                 ¡Contactame!
               </a>
             </div>
           </div>
-        </div>
+        </article>
 
         <picture className="home__container--img" data-aos="zoom-in">
           <img src={home} alt="Ilustración mujer y plantas" />
@@ -98,7 +98,7 @@ const Home = () => {
           </a>
         </div>
       </div> */}
-    </div>
+    </section>
   );
 };
 

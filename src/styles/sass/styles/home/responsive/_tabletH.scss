@@ -1,0 +1,18 @@
+@use "../../../variables/var";
+
+@media screen and (width >= 1024px) {
+  .home {
+    &__container {
+      grid-template-columns: repeat(2, 1fr);
+      &--img {
+        justify-content: end;
+        align-items: center;
+
+        & img {
+          width: 40rem;
+          height: 40rem;
+        }
+      }
+    }
+  }
+}

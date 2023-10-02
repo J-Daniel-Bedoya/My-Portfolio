@@ -1,0 +1,14 @@
+@use "../../../variables/var";
+
+@media screen and (width >= 1240px) {
+  .home {
+    &__container {
+      &--img {
+        & img {
+          width: 50rem;
+          height: 50rem;
+        }
+      }
+    }
+  }
+}
