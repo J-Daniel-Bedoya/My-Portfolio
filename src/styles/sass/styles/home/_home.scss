@@ -21,6 +21,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      // background-color: #dedbdb;
 
       & img {
         width: 50rem;
@@ -29,6 +30,7 @@
         animation: image 2s;
         object-fit: contain;
         border-radius: 100%;
+        // background-color: #fff;
       }
     }
 
@@ -47,12 +49,13 @@
 
         &__text {
           font-size: 6rem;
-          color: var.$sub-title;
+          // color: var.$sub-title;
+          color: #fff;
           font-weight: 800;
 
           & span {
             font-size: 8rem;
-            color: #e7defa;
+            color: var.$tr-color2;
             font-family: var.$font-title;
             // text-shadow: 2px 2px #b07cfff9;
           }
@@ -63,10 +66,10 @@
           justify-content: center;
           align-items: center;
           gap: 0 1rem;
-          color: #e9e0ff;
+          color: var.$tr-color1;
           text-decoration: none;
           margin-top: 3rem;
-          font-size: 2rem;
+          font-size: 1.7rem;
           font-family: var.$font-text;
 
           & i {
@@ -77,14 +80,15 @@
 
       & .text > p {
         margin-top: 1.2rem;
-        color: var.$text;
+        // color: var.$text;
+        color: #dedbdb;
         font-size: 1.8em;
         font-family: var.$font-text;
       }
 
       & .buttons {
         display: flex;
-        flex-direction: row-reverse;
+        // flex-direction: row-reverse;
         justify-content: space-between;
         margin: 7rem 0;
         gap: 2rem;
@@ -97,30 +101,28 @@
           gap: 1rem;
 
           &--link {
-            width: 4.5rem;
-            height: 4.5rem;
-            background: var.$beaver;
-            color: var.$white;
+            background-color: var.$tr-color2;
+            width: 3.8rem;
+            height: 3.8rem;
+            color: var.$tr-color3;
             text-decoration: none;
             font-weight: bold;
-            font-size: 20px;
-            // border: 1px solid var.$beaver;
             font-family: var.$font-title;
-            cursor: pointer;
-            transition: 1s;
+            transition: 0.3s;
             border-radius: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 10px;
-            padding: 12px;
 
             & > i {
-              font-size: 2.5rem;
+              cursor: pointer;
+              font-size: 2.2rem;
+              color: var.$black;
             }
 
             &:hover {
-              color: var.$beaver;
+              transform: scale(1.1);
             }
           }
         }
@@ -155,6 +157,7 @@
 
             & > i {
               font-size: 12px;
+              color: var.$tr-color3;
             }
           }
         }

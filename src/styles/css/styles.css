@@ -158,12 +158,12 @@ html {
 }
 .home__container--info .info__text {
   font-size: 6rem;
-  color: #d9bcff;
+  color: #fff;
   font-weight: 800;
 }
 .home__container--info .info__text span {
   font-size: 8rem;
-  color: #e7defa;
+  color: #19ffe4;
   font-family: "Open Sans", sans-serif;
 }
 .home__container--info .info__work {
@@ -171,10 +171,10 @@ html {
   justify-content: center;
   align-items: center;
   gap: 0 1rem;
-  color: #e9e0ff;
+  color: rgba(25, 255, 197, 0.8980392157);
   text-decoration: none;
   margin-top: 3rem;
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-family: "Poppins", sans-serif;
 }
 .home__container--info .info__work i {
@@ -182,13 +182,12 @@ html {
 }
 .home__container--info .text > p {
   margin-top: 1.2rem;
-  color: #be92f8;
+  color: #dedbdb;
   font-size: 1.8em;
   font-family: "Poppins", sans-serif;
 }
 .home__container--info .buttons {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-between;
   margin: 7rem 0;
   gap: 2rem;
@@ -200,28 +199,27 @@ html {
   gap: 1rem;
 }
 .home__container--info .buttons__networks--link {
-  width: 4.5rem;
-  height: 4.5rem;
-  background: #6600ff;
-  color: #ffffff;
+  background-color: #19ffe4;
+  width: 3.8rem;
+  height: 3.8rem;
+  color: #13ffef;
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px;
   font-family: "Open Sans", sans-serif;
-  cursor: pointer;
-  transition: 1s;
+  transition: 0.3s;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 12px;
 }
 .home__container--info .buttons__networks--link > i {
-  font-size: 2.5rem;
+  cursor: pointer;
+  font-size: 2.2rem;
+  color: #1a0248;
 }
 .home__container--info .buttons__networks--link:hover {
-  color: #6600ff;
+  transform: scale(1.1);
 }
 .home__container--info .buttons__contact {
   display: flex;
@@ -252,6 +250,7 @@ html {
 }
 .home__container--info .buttons__contact--cv > i {
   font-size: 12px;
+  color: #13ffef;
 }
 
 .about {
@@ -343,13 +342,31 @@ html {
 .proyects__container--card .card__img {
   width: 100%;
   height: 100%;
-  position: relative;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
-.proyects__container--card .card__img img {
-  border-radius: 10px;
+.proyects__container--card .card__img > img {
+  border-radius: 10px 0 0 0;
   width: 100%;
   height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.proyects__container--card .card__img--icons {
+  padding-bottom: 2rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.proyects__container--card .card__img--icons img {
+  width: 3rem;
+  height: 3rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -369,25 +386,11 @@ html {
 }
 .proyects__container--card .card__container--text h2 {
   font-size: 3rem;
-  color: #d9bcff;
+  color: rgba(25, 255, 197, 0.8980392157);
 }
 .proyects__container--card .card__container--text p {
   font-size: 2rem;
-  color: #be92f8;
-}
-.proyects__container--card .card__container--imgs {
-  width: 3rem;
-  height: 3rem;
-  margin: 2rem 0 4rem 0;
-  display: flex;
-  gap: 1rem;
-}
-.proyects__container--card .card__container--imgs img {
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: #dedbdb;
 }
 .proyects__container--card .card__container--links {
   display: flex;
@@ -595,7 +598,7 @@ html {
   gap: 4rem;
 }
 .footer__container--title > a {
-  color: #ffffff;
+  color: #19ffe4;
   font-size: 4rem;
   text-decoration: none;
   font-weight: bold;
@@ -608,8 +611,8 @@ html {
   width: 4.5rem;
   height: 4.5rem;
   border-radius: 50%;
-  transition: 0.8s;
-  background-color: #6600ff;
+  transition: 0.3s;
+  background-color: rgba(25, 255, 197, 0.8980392157);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -617,11 +620,10 @@ html {
 }
 .footer__container--networks a i {
   font-size: 2.5rem;
-  color: #ffffff;
+  color: #1a0248;
 }
-.footer__container--networks a i:hover {
-  border: 1px solid #6600ff;
-  transform: scale(1.2);
+.footer__container--networks a:hover {
+  transform: scale(1.1);
 }
 .footer__container--copy {
   padding-bottom: 4rem;
@@ -632,7 +634,7 @@ html {
 }
 .footer__container--copy span:nth-child(1),
 .footer__container--copy span:nth-child(3) {
-  color: #ffffff;
+  color: #a589ff;
 }
 
 /*# sourceMappingURL=styles.css.map */
