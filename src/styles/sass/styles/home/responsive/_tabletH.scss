@@ -1,8 +1,7 @@
-@use "../../../variables/var";
-
 @media screen and (width >= 1024px) {
   .home {
     &__container {
+      width: 90rem;
       grid-template-columns: repeat(2, 1fr);
       &--img {
         justify-content: end;

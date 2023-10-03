@@ -1,0 +1,25 @@
+@media screen and (width >= 1500px) {
+  .proyects {
+    &__container {
+      width: 120rem;
+      gap: 4rem;
+
+      &--card {
+        grid-template-columns: repeat(2, 1fr);
+        & .card__img {
+          & > img {
+            border-radius: 10px 0 0 0;
+          }
+        }
+        & .card__container {
+          &--text {
+            gap: 1rem;
+            & p {
+              font-size: 1.7rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-// import Contacto from "./components/contacto/Contacto";
+import Home from "./components/home/Home";
+import Proyectos from "./components/proyectos/Proyectos";
+import Contacto from "./components/contacto/Contacto";
 // import Footer from "./components/footer/Footer";
 // import Habilidades from "./components/habilidades/Habilidades";
-import Home from "./components/home/Home";
 // import Nav from "./components/navbar/Nav";
-import Proyectos from "./components/proyectos/Proyectos";
 // import SobreMi from "./components/sobreMi/SobreMi";
 import Aos from "aos";
 
@@ -14,13 +14,13 @@ function App() {
   }, []);
 
   return (
-    <main className="App">
+    <main className="app">
       {/* <Nav /> */}
       <Home />
       {/* <SobreMi /> */}
       {/* <Habilidades /> */}
       <Proyectos />
-      {/* <Contacto /> */}
+      <Contacto />
       {/* <Footer /> */}
     </main>
   );

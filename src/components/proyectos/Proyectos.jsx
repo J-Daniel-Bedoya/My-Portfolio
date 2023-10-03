@@ -15,16 +15,16 @@ const Proyectos = () => {
           >
             <div className="card__img">
               <img src={port.imgPortafolio} alt="portfolio" />
-              <div className="card__img--icons">
-                {port.tectonologys.map((tect, i) => (
-                  <img key={i} src={tect.img} alt={tect.name} />
-                ))}
-              </div>
             </div>
             <div className="card__container">
               <div className="card__container--text">
                 <h2>{port.name}</h2>
                 <p>{port.description}</p>
+                <div className="icons">
+                  {port.tectonologys.map((tect, i) => (
+                    <img key={i} src={tect.img} alt={tect.name} />
+                  ))}
+                </div>
               </div>
 
               <div className="card__container--links">
