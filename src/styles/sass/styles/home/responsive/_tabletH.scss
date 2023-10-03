@@ -1,5 +1,7 @@
 @media screen and (width >= 1024px) {
   .home {
+    height: 100dvh;
+
     &__container {
       width: 90rem;
       grid-template-columns: repeat(2, 1fr);

@@ -1,0 +1,14 @@
+@media screen and (width >= 768px) {
+  .contact {
+    justify-content: center;
+    align-items: center;
+
+    & h1 {
+      font-size: 5rem;
+    }
+
+    &__container {
+      width: 65dvw;
+    }
+  }
+}

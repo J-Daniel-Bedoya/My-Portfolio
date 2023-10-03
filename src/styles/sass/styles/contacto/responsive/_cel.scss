@@ -3,34 +3,31 @@
 .contact {
   width: 100%;
   height: auto;
-  padding: 16rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+  gap: 7rem;
 
   & h1 {
     display: block;
     text-align: center;
     color: var.$white;
-    font-size: 5rem;
-    letter-spacing: 0.1rem;
-    padding: 0 6rem 12rem 6rem;
+    font-size: 4rem;
     font-weight: bold;
   }
 
   &__container {
-    width: 100dvw;
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-width: 20rem;
+    max-width: 50rem;
 
     &--form {
-      min-width: 20rem;
-      max-width: 50rem;
+      width: 100%;
       height: auto;
-      // background-color: var.$eerie-black;
       border: 1px solid var.$beaver;
       border-radius: 24px;
       padding: 3rem;
-      // position: relative;
       display: flex;
       flex-direction: column;
       gap: 5rem;
@@ -40,10 +37,8 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        // justify-content: center;
         align-items: center;
         gap: 1rem;
-        // background-color: #d0ffef;
         & h2 {
           font-size: 2.7rem;
           color: var.$white;
@@ -52,7 +47,6 @@
           font-size: 1.5rem;
           text-wrap: wrap;
           color: var.$light-grey;
-          // padding-bottom: 2rem;
         }
       }
 

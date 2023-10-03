@@ -32,66 +32,66 @@ const Contacto = () => {
   };
 
   return (
-    <div>
-      <div className="contact" id="contact">
-        <h1>Contacto</h1>
+    // <div>
+    <div className="contact" id="contact">
+      <h1>Contacto</h1>
 
-        <div
-          className="contact__container"
-          data-aos="fade-up"
-          data-aos-anchor-placement="center-bottom"
+      <div
+        className="contact__container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom"
+      >
+        <form
+          onSubmit={handleSubmit(onSubmit)}
+          id="form"
+          className="contact__container--form"
+          name="contacto-portafolio"
         >
-          <form
-            onSubmit={handleSubmit(onSubmit)}
-            id="form"
-            className="contact__container--form"
-            name="contacto-portafolio"
-          >
-            <div className="form__text">
-              <h2>Solicitud</h2>
-              <p>¡No dudes en escribirme!</p>
+          <div className="form__text">
+            <h2>Solicitud</h2>
+            <p>¡No dudes en escribirme!</p>
+          </div>
+          <div className="form__inputs">
+            <div>
+              <input
+                id="nombre"
+                type="text"
+                name="name"
+                placeholder="Nombre"
+                required
+                {...register("name")}
+              />
             </div>
-            <div className="form__inputs">
-              <div>
-                <input
-                  id="nombre"
-                  type="text"
-                  name="name"
-                  placeholder="Nombre"
-                  required
-                  {...register("name")}
-                />
-              </div>
-              <div>
-                <input
-                  id="asunto"
-                  type="text"
-                  name="affair"
-                  placeholder="Asunto"
-                  required
-                  {...register("affair")}
-                />
-              </div>
-              <div>
-                <textarea
-                  id="mensaje"
-                  cols="20"
-                  rows="4"
-                  name="message"
-                  placeholder="Mensaje"
-                  required
-                  {...register("message")}
-                ></textarea>
-              </div>
+            <div>
+              <input
+                id="asunto"
+                type="text"
+                name="affair"
+                placeholder="Asunto"
+                required
+                {...register("affair")}
+              />
             </div>
-            <div className="form__button">
-              <button id="btn-enviar" type="submit">
-                Enviar
-              </button>
+            <div>
+              <textarea
+                id="mensaje"
+                cols="20"
+                rows="4"
+                name="message"
+                placeholder="Mensaje"
+                required
+                {...register("message")}
+              ></textarea>
             </div>
-          </form>
-        </div>
+          </div>
+          <div className="form__button">
+            <button id="btn-enviar" type="submit">
+              Enviar
+            </button>
+          </div>
+        </form>
       </div>
+      {/* </div> */}
     </div>
   );
 };
