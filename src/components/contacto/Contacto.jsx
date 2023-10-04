@@ -9,6 +9,7 @@ const Contacto = () => {
   const { register, handleSubmit, reset } = useForm();
   const defaultValues = {
     name: "",
+    email: "",
     affair: "",
     message: "",
   };
@@ -60,6 +61,16 @@ const Contacto = () => {
                 placeholder="Nombre"
                 required
                 {...register("name")}
+              />
+            </div>
+            <div>
+              <input
+                id="asunto"
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+                {...register("email")}
               />
             </div>
             <div>
