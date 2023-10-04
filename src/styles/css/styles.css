@@ -116,7 +116,7 @@ html {
 
 .home {
   width: 100%;
-  height: 100dvh;
+  height: auto;
   padding: 2rem;
   display: flex;
   flex-direction: column-reverse;
@@ -180,6 +180,9 @@ html {
 .home__container--info .info__work i {
   font-size: 14px;
 }
+.home__container--info .info__work:hover {
+  color: #19ffe4;
+}
 .home__container--info .text > p {
   margin-top: 1.6rem;
   color: #dedbdb;
@@ -200,7 +203,7 @@ html {
   gap: 1rem;
 }
 .home__container--info .buttons__networks--link {
-  background-color: #19ffe4;
+  background-color: #1a0248;
   width: 4rem;
   height: 4rem;
   color: #13ffef;
@@ -217,10 +220,10 @@ html {
 .home__container--info .buttons__networks--link > i {
   cursor: pointer;
   font-size: 2.5rem;
-  color: #1a0248;
+  color: #19ffe4;
 }
 .home__container--info .buttons__networks--link:hover {
-  transform: scale(1.1);
+  background-color: #4010b0;
 }
 .home__container--info .buttons__contact {
   display: flex;
@@ -229,25 +232,30 @@ html {
   gap: 1.5rem;
 }
 .home__container--info .buttons__contact--link {
-  background-color: #4010b0;
+  background-color: #240963;
+  width: 12rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: #ffffff;
-  border-radius: 3rem;
-  padding: 0.7rem 1.5rem;
+  border-radius: 10rem;
+  font-size: 1.7rem;
   font-weight: bold;
-  font-size: 2rem;
   font-family: "Poppins", sans-serif;
   border: none;
   cursor: pointer;
-  transition: 1s;
+  transition: 0.4s;
+}
+.home__container--info .buttons__contact--link:hover {
+  background-color: #4010b0;
 }
 .home__container--info .buttons__contact--cv {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  width: max-content;
-  height: max-content;
 }
 .home__container--info .buttons__contact--cv > i {
   font-size: 12px;
@@ -256,7 +264,6 @@ html {
 
 @media screen and (width >= 768px) {
   .home {
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,7 +306,9 @@ html {
     gap: 2rem;
   }
   .home__container--info .buttons__contact--link {
-    font-size: 2.5rem;
+    width: 15rem;
+    height: 5rem;
+    font-size: 2rem;
   }
 }
 @media screen and (width >= 1024px) {
@@ -751,7 +760,7 @@ html {
   height: 4.5rem;
   border-radius: 50%;
   transition: 0.3s;
-  background-color: rgba(25, 255, 197, 0.8980392157);
+  background-color: #1a0248;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -759,10 +768,10 @@ html {
 }
 .footer__container--networks a i {
   font-size: 2.5rem;
-  color: #1a0248;
+  color: #19ffe4;
 }
 .footer__container--networks a:hover {
-  transform: scale(1.1);
+  background-color: #4010b0;
 }
 .footer__container--copy {
   padding-bottom: 4rem;

@@ -3,7 +3,7 @@
     {
       "id": 0,
       "name": "Pokedex",
-      "description": "Proyecto front-end con React.js y manejo de apis con axios. Diseñé ésta página pensando en la experiencia del usuario final, usando contornos delineados y colores oscuros.",
+      "description": "Proyecto front-end con React.js y Axios, validando habilidades en CSS, JavaScript y React. App de búsqueda de pokémones por categoría, nombre y habilidad, con función de favoritos.",
       "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281687/Captura-de-pantalla-2022-11-30-190152_b8fimx.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/Pokedex",
       "linkPagina": "https://pokedex-danielbedoya.netlify.app",
@@ -37,7 +37,7 @@
     {
       "id": 1,
       "name": "E-Commerce",
-      "description": "Proyecto full-stack con React.js, Node.js y PostgreSQL. Hice una interfas muy amigable con el usuario y desarrllé todo el back-end basado en una e-commerce real como mercado libre",
+      "description": "Proyecto full-stack que utiliza React.js, Node.js y PostgreSQL. Permite a los usuarios ver productos, aplicar filtros, añadir productos al carrito, realizar compras y consultar sus compras anteriores.",
       "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1670806055/Captura_de_pantalla_2022-12-11_192138_ihidch.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/E-Comerce-React",
       "linkPagina": "https://e-commerce-danielbedoya.netlify.app",
@@ -87,7 +87,7 @@
     {
       "id": 2,
       "name": "Crud Users",
-      "description": "Un proyecto de lo mejor en cuanto a datos se refiere, con campos de formulario y con los métodos básicos de un back-end",
+      "description": "Proyecto full-stack enfocado en el desarrollo del back-end. Permite la creación de nuevas tarjetas de usuario, la visualización de todas las tarjetas, así como la capacidad de editarlas y eliminarlas.",
       "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281676/Captura_de_pantalla_2023-02-01_150042_puowgb.png",
       "linkRepo": "https://github.com/J-Daniel-Bedoya/Crud-Users",
       "linkPagina": "https://crud-users-danielbedoya.netlify.app/",

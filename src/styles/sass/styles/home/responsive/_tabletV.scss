@@ -1,12 +1,8 @@
 @media screen and (width >= 768px) {
   .home {
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    // gap: ;
-    // overflow-x: hidden;
-    // padding: 5rem;
 
     &__container {
       width: 70rem;
@@ -18,7 +14,6 @@
         }
       }
       &--info {
-        // width: min-content;
         align-items: start;
 
         & .info {
@@ -50,7 +45,9 @@
           &__contact {
             gap: 2rem;
             &--link {
-              font-size: 2.5rem;
+              width: 15rem;
+              height: 5rem;
+              font-size: 2rem;
             }
           }
         }

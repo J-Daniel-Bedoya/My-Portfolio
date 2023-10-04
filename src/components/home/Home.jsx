@@ -19,7 +19,7 @@ const Home = () => {
               className="info__work"
               target="_blank"
             >
-              Web Full-Stack developer
+              Desarrollador web full-stack
               <i className="fa-solid fa-up-right-from-square"></i>
             </a>
           </div>
@@ -28,8 +28,10 @@ const Home = () => {
 
           <div className="text">
             <p>
-              Desarrollador con experiencia en la creación de sitios web. Amante
-              de los nuevos retos y en constante aprendizaje.
+              En mi último empleo, fortalecí mi adaptabilidad, resolución de
+              problemas y trabajo en equipo. Me encanta la programación y
+              trabajar en equipo. Mi meta es crear soluciones de alto impacto y
+              de utilidad para el mundo.
             </p>
           </div>
 
@@ -67,7 +69,7 @@ const Home = () => {
                 <i className="fa-solid fa-up-right-from-square"></i>
               </a>
               <a href="#contact" className="buttons__contact--link">
-                ¡Contactame!
+                Contacto
               </a>
             </div>
           </div>
