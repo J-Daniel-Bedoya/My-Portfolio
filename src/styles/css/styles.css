@@ -675,7 +675,7 @@ html {
   border: 1px solid #1e067e;
   color: #ffffff;
   outline: none;
-  padding-left: 0.6rem;
+  padding-left: 2rem;
   border-radius: 7px;
   font-size: 20px;
 }
@@ -689,7 +689,7 @@ html {
   background-color: #6e5ff3;
 }
 .contact__container--form .form__inputs textarea {
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 .contact__container--form .form__inputs textarea:focus {
   background-color: #6e5ff3;

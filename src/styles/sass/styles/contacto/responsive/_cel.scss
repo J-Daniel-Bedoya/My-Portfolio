@@ -65,7 +65,7 @@
           border: 1px solid var.$border;
           color: var.$white;
           outline: none;
-          padding-left: 0.6rem;
+          padding-left: 2rem;
           border-radius: 7px;
           font-size: 20px;
         }
@@ -83,7 +83,7 @@
         }
 
         & textarea {
-          padding: 1rem;
+          padding: 1rem 2rem;
 
           &:focus {
             background-color: #6e5ff3;

@@ -21,9 +21,9 @@ const Contacto = () => {
         Swal.fire({
           icon: "success",
           title: "Listo!",
-          text: "Mensaje enviado correctamente",
+          titleText: "Mensaje enviado correctamente",
           confirmButtonText: "Ok",
-          timer: 3000,
+          timer: 2000,
         });
       })
       .catch((err) => {
