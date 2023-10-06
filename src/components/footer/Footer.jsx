@@ -17,14 +17,14 @@ const Footer = () => {
               <i class="fa-solid fa-envelope"></i>
             </a>
             <a
-              href="https://www.facebook.com/daniel.bedoya.94695"
+              href="https://www.instagram.com/j_daniel_bedoya/"
               className="buttons__networks--link"
               target="_blank"
             >
               <i className="fa-brands fa-instagram"></i>
             </a>
             <a
-              href="https://www.instagram.com/j_daniel_bedoya/"
+              href="https://www.facebook.com/daniel.bedoya.94695"
               className="buttons__networks--link"
               target="_blank"
             >
