@@ -83,40 +83,6 @@
           "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283181/sequelizejs-icon_bfq2od.png"
         }
       ]
-    },
-    {
-      "id": 2,
-      "name": "Crud Users",
-      "description": "Proyecto full-stack enfocado en el desarrollo del back-end. Permite la creación de nuevas tarjetas de usuario, la visualización de todas las tarjetas, así como la capacidad de editarlas y eliminarlas.",
-      "imgPortafolio": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675281676/Captura_de_pantalla_2023-02-01_150042_puowgb.png",
-      "linkRepo": "https://github.com/J-Daniel-Bedoya/Crud-Users",
-      "linkPagina": "https://crud-users-danielbedoya.netlify.app/",
-      "tectonologys": [
-        {
-          "name": "HTML",
-          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-html_ro4j8f.png"
-        },
-        {
-          "name": "CSS",
-          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283184/icon-css_onjo9h.png"
-        },
-        {
-          "name": "JS(ES6)",
-          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/icon-js_kyszsp.png"
-        },
-        {
-          "name": "React",
-          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283186/react-2_kops74.png"
-        },
-        {
-          "name": "Redux",
-          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283183/5848309bcef1014c0b5e4a9a_zasezj.png"
-        },
-        {
-          "name": "Boostrap",
-          "img": "https://res.cloudinary.com/dpwje5siq/image/upload/v1675283185/bootstrap-5-1_q5ezlg.png"
-        }
-      ]
     }
   ],
   "tectonologys": [
