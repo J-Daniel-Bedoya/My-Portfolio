@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import navbar from "../../../public/nameNav.json";
+import navbar from "../../../proyectos/nameNav.json";
 
 const Nav = () => {
   const [active, setActive] = useState(0);

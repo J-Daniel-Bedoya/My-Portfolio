@@ -1,5 +1,5 @@
 import React from "react";
-import portafolio from "../../../public/portafolio.json";
+import portafolio from "../../../proyectos/portafolio.json";
 
 const Proyectos = () => {
   return (
